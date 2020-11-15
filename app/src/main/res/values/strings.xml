@@ -4,4 +4,13 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="new_challenge">New Challenge</string>
+    <string name="invitationTitle">Pending Invitation</string>
+    <string name="placeHolder">
+        this will be replaced as activity launch,
+        this will be replaced as activity launch,
+        this will be replaced as activity launch,
+        this will be replaced as activity launch,
+        this will be replaced as activity launch,
+        this will be replaced as activity launch</string>
+    <string name="expire">Expired Date: 2020-12-13</string>
 </resources>
