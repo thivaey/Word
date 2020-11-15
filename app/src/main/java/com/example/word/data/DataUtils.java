@@ -1,7 +1,5 @@
 package com.example.word.data;
 
-import android.os.Build;
-
 import com.annimon.stream.Stream;
 import com.example.word.data.model.Challenge;
 import com.example.word.data.model.User;
@@ -79,5 +77,14 @@ public class DataUtils {
       if (challenge.getId() == id) return challenge;
     }
     return new Challenge();
+  }
+
+  public static Challenge[] getCompleteChallenges(String username) {
+    return Stream.of(challengeList).filter(c -> {
+      boolean isChallenged = c.getChallenged().equals(username);
+      boolean isChallenger = c.getChallenger().equals(username);
+      boolean statusMatch = c.getStatus() == Challenge.COMPLETED;
+      return statusMatch && (isChallenged || isChallenger);
+    }).toArray(Challenge[]::new);
   }
 }

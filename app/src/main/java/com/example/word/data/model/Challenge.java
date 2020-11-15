@@ -8,6 +8,7 @@ public class Challenge {
   public static final int COUNTER_CHALLENGED = 3;
   public static final int WAITING_PENALTY = 4;
   public static final int UNRESOLVED = 5;
+  public static final int COMPLETED = 6;
 
   private String challenger;
   private String challenged;
