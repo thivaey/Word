@@ -1,0 +1,62 @@
+[
+  {
+    "challenger": "",
+    "challenged": "",
+    "startDate": "",
+    "description": "",
+    "endDate": "",
+    "penaltyByChallenger": "",
+    "penaltyByChallenged": "",
+    "finalPenalty": "",
+    "winner": "",
+    "status": ""
+  },
+  {
+    "challenger": "ruisong1998",
+    "challenged": "diveyanand",
+    "startDate": "2020-11-13",
+    "description": "You keep saying that you can eat a lot but I'm sure I can eat way more than you can! We'll have a contest at the end of this month!",
+    "endDate": "2020-11-13",
+    "penaltyByChallenger": "Loser has to pay for all the hotdogs eaten",
+    "penaltyByChallenged": "",
+    "finalPenalty": "",
+    "winner": "",
+    "status": "2"
+  },
+  {
+    "challenger": "ruisong1998",
+    "challenged": "diveyanand",
+    "startDate": "2020-11-12",
+    "description": "You keep saying that you can do more pushup than me",
+    "endDate": "2020-12-13",
+    "penaltyByChallenger": "Loser has to do 100 pushups",
+    "penaltyByChallenged": "Loser has to do 500 pushups",
+    "finalPenalty": "",
+    "winner": "",
+    "status": "3"
+  },
+  {
+    "challenger": "ruisong1998",
+    "challenged": "diveyanand",
+    "startDate": "2020-5-12",
+    "description": "You keep saying that you can run faster than me and You are wrong",
+    "endDate": "2020-12-18",
+    "penaltyByChallenger": "Loser has to do buy winner a coffee",
+    "penaltyByChallenged": "Loser has to buy winner 10 lunch",
+    "finalPenalty": "Loser has to buy winner 10 lunch",
+    "winner": "",
+    "status": "1"
+  },
+  {
+    "challenger": "ruisong1998",
+    "challenged": "diveyanand",
+    "startDate": "2020-11-12",
+    "description": "You keep saying that you can type faster than me and I don't believe that",
+    "endDate": "2020-12-13",
+    "penaltyByChallenger": "Loser has to do a five minutes handstand",
+    "penaltyByChallenged": "",
+    "finalPenalty": "Loser has to do a five minutes handstand",
+    "winner": "diveyanand",
+    "status": "3"
+  }
+]
