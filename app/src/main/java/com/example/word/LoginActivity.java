@@ -38,8 +38,7 @@ public class LoginActivity extends AppCompatActivity  {
                         System.out.println(usernameEditText.getText().toString());
                         Log.d("LOGIN_DEBUG", usernameEditText.getText().toString());
 
-                        Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-                        intent.putExtra("username", usernameEditText.getText().toString());
+                        Intent intent = new Intent(LoginActivity.this, ResolveActivity.class);
                         startActivity(intent);
                     }
                 }
