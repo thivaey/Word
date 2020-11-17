@@ -2,7 +2,7 @@ package com.example.word.data.model;
 
 public class User {
   private String username;
-  private double creditScore;
+  private double rating;
   private String fullName;
   private String password;
 
@@ -10,8 +10,8 @@ public class User {
     this.username = username;
   }
 
-  public void setCreditScore(double creditScore) {
-    this.creditScore = creditScore;
+  public void setRating(double rating) {
+    this.rating = rating;
   }
 
   public void setFullName(String fullName) {
@@ -26,8 +26,8 @@ public class User {
     return username;
   }
 
-  public double getCreditScore() {
-    return creditScore;
+  public double getRating() {
+    return rating;
   }
 
   public String getFullName() {
@@ -40,9 +40,9 @@ public class User {
 
   public User() {}
 
-  public User(String username, int creditScore, String fullName, String password) {
+  public User(String username, int rating, String fullName, String password) {
     this.username = username;
-    this.creditScore = creditScore;
+    this.rating = rating;
     this.fullName = fullName;
     this.password = password;
   }
