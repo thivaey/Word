@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.example.word.data.DataUtils;
+
 public class LoginActivity extends AppCompatActivity  {
 
     Button loginButton;
@@ -37,7 +39,7 @@ public class LoginActivity extends AppCompatActivity  {
                     public void onClick(View view) {
                         System.out.println(usernameEditText.getText().toString());
                         Log.d("LOGIN_DEBUG", usernameEditText.getText().toString());
-
+                        DataUtils.setCurrUser(usernameEditText.getText().toString().trim());
                         Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                         intent.putExtra("username", usernameEditText.getText().toString());
                         startActivity(intent);
