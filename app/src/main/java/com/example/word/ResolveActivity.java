@@ -3,12 +3,9 @@ package com.example.word;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 
 public class ResolveActivity extends AppCompatActivity {
 
@@ -25,7 +22,7 @@ public class ResolveActivity extends AppCompatActivity {
             new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent intent = new Intent(ResolveActivity.this, SettlementActivity.class);
+                    Intent intent = new Intent(ResolveActivity.this, SettlementWinActivity.class);
                     startActivity(intent);
                 }
             }
@@ -36,7 +33,7 @@ public class ResolveActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View view) {
 
-                        Intent intent = new Intent(ResolveActivity.this, SettlementActivity.class);
+                        Intent intent = new Intent(ResolveActivity.this, SettlementLoseActivity.class);
                         startActivity(intent);
                     }
                 }

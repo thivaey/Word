@@ -2,15 +2,12 @@ package com.example.word;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.assist.AssistStructure;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 
-public class SettlementActivity extends AppCompatActivity {
+public class SettlementLoseActivity extends AppCompatActivity {
 
     Button agreeButton;
     Button disagreeButton;
@@ -27,21 +24,11 @@ public class SettlementActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View view) {
 
-                        Intent intent = new Intent(SettlementActivity.this, LosingActivity.class);
+                        Intent intent = new Intent(SettlementLoseActivity.this, LosingActivity.class);
                         startActivity(intent);
                     }
                 }
         );
 
-        disagreeButton.setOnClickListener(
-                new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-
-                        Intent intent = new Intent(SettlementActivity.this, WinningActivity.class);
-                        startActivity(intent);
-                    }
-                }
-        );
     }
 }
