@@ -28,6 +28,7 @@ public class NotificationsFragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_notifications, container, false);
 
         Challenge[] invitations = DataUtils.getPendingInvitation(DataUtils.getCurrUser());
+        System.out.println(invitations.length);
 
         TextView description1 = (TextView) root.findViewById(R.id.notification_description1);
         TextView date1 = (TextView) root.findViewById(R.id.notification_date1);
@@ -50,10 +51,28 @@ public class NotificationsFragment extends Fragment {
         description1.setText(invitations[0].getDescription());
 
         if (invitations[0].getStatus() == Challenge.SEND)
-            challenger1.setText("@" + invitations[0].getChallenger() + "'s Challenged you:");
+            challenger1.setText("@" + invitations[0].getChallenger() + "Challenged you:");
         else
             challenger1.setText("@" + invitations[0].getChallenged() + "'s Counter Challenge:");
         date1.setText(invitations[0].getEndDate());
+
+
+        challenge2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity().getApplicationContext(), ReactionActivity.class);
+                intent.putExtra("ID", invitations[1].getId());
+                startActivity(intent);
+            }
+        });
+
+        description2.setText(invitations[1].getDescription());
+
+        if (invitations[1].getStatus() == Challenge.SEND)
+            challenger2.setText("@" + invitations[1].getChallenger() + " Challenged you:");
+        else
+            challenger2.setText("@" + invitations[1].getChallenged() + "'s Counter Challenge:");
+        date2.setText(invitations[1].getEndDate());
 
         return root;
     }

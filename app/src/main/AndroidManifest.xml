@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Word">
-        <activity android:name=".handleInvitation.ReactionActivity"></activity>
+        <activity android:name=".handleInvitation.CounterChallenge"></activity>
+        <activity android:name=".handleInvitation.ReactionActivity" />
         <activity android:name=".ResolutionActivity" />
         <activity android:name=".LoginActivity">
             <intent-filter>

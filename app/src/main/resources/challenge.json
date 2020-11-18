@@ -57,6 +57,18 @@
     "penaltyByChallenged": "",
     "finalPenalty": "Loser has to do a five minutes handstand",
     "winner": "diveyanand",
-    "status": "3"
+    "status": "5"
+  },
+  {
+    "challenger": "diveyanand",
+    "challenged": "ruisong1998",
+    "startDate": "2020-8-12",
+    "description": "You said you know everything about Java. But apparently your claim is not supported by your grade. I will challenge you with 5 question about OOP",
+    "endDate": "2020-12-17",
+    "penaltyByChallenger": "Loser has to but winner a leetcode premium account",
+    "penaltyByChallenged": "",
+    "finalPenalty": "",
+    "winner": "",
+    "status": "2"
   }
 ]
