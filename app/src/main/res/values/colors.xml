@@ -10,4 +10,6 @@
     <color name="gray">#CAD7D3</color>
     <color name="accept_green">#8fd14f</color>
     <color name="decline_red">#f24726</color>
+    <color name="green">#4FE377</color>
+    <color name="red">#EB4444</color>
 </resources>

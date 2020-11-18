@@ -17,6 +17,7 @@
             android:id="@+id/profile_picture"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
             android:gravity="center_horizontal"
             android:orientation="vertical">
 
@@ -32,7 +33,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/profile" />
-            </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>it didn't ,makeit didn
 
             <TextView
                 android:id="@+id/profile_full_name"
