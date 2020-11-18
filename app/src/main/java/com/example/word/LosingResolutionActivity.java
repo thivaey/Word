@@ -9,12 +9,23 @@ import android.widget.Button;
 
 public class LosingResolutionActivity extends AppCompatActivity {
 
-    Button mainActivity;
+    Button main;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        mainActivity = (Button)(findViewById(R.id.losing_resolution_main_menu_button));
         setContentView(R.layout.activity_losing_resolution);
+        main = (Button)(findViewById(R.id.losing_resolution_main_menu_button));
+
+        main.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+
+                        Intent intent = new Intent(LosingResolutionActivity.this, MainActivity.class);
+                        startActivity(intent);
+                    }
+                }
+        );
     }
 }

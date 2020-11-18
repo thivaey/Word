@@ -15,7 +15,7 @@ public class LosingActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_losing);
-        losingResolutionButton = (Button)(findViewById(R.id.losing_button));
+        losingResolutionButton = (Button)(findViewById(R.id.losing_resolve_button));
 
         losingResolutionButton.setOnClickListener(
                 new View.OnClickListener() {
