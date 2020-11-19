@@ -18,8 +18,9 @@
             android:textColor="@color/black"
 
             android:textAlignment="center"
+            android:gravity="center"
             android:background="@color/teal_700"
-            android:textSize="70sp"
+            android:textSize="50sp"
             android:paddingTop="75dp"
             android:paddingBottom="75dp"
             android:layout_weight="3"
