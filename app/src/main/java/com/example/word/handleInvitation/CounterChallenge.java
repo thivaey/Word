@@ -2,12 +2,14 @@ package com.example.word.handleInvitation;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
 import com.example.word.R;
 import com.example.word.data.DataUtils;
 import com.example.word.data.model.Challenge;
+import com.example.word.ui.newchallenge.NewChallengeSentActivity;
 
 public class CounterChallenge extends AppCompatActivity {
 
@@ -26,5 +28,14 @@ public class CounterChallenge extends AppCompatActivity {
       challenger.setText("@" + invitation.getChallenged() + "'s Counter Challenge:");
       description.setText(invitation.getDescription());
     }
+
+    ((TextView)findViewById(R.id.reaction_counter_challenge)).setOnClickListener(
+      v -> {
+        Intent intent = new Intent(CounterChallenge.this, NewChallengeSentActivity.class);
+        startActivity(intent);
+      }
+    );
+
+
   }
 }
