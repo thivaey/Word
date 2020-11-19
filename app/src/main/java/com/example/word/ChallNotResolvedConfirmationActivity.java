@@ -14,16 +14,16 @@ public class ChallNotResolvedConfirmationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chall_not_resolved_confirmation);
 
-        continueNotResolvedButton = (Button) findViewById(R.id.disagreement_resolveWithFriends_button);
+        continueNotResolvedButton = (Button) findViewById(R.id.challNotResolvedContinue_button);
         continueNotResolvedButton.setOnClickListener(view -> {
-            Intent intent = new Intent(getApplicationContext(), ChallNotResolvedActivity.class);
+            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
             startActivity(intent);
 
         });
 
-        backNotResolvedButton = (Button) findViewById(R.id.disagreement_resolveWithCredScore_button);
+        backNotResolvedButton = (Button) findViewById(R.id.challNotResolvedBack_button);
         backNotResolvedButton.setOnClickListener(view -> {
-            Intent intent = new Intent(getApplicationContext(), ChallNotResolvedActivity.class);
+            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
             startActivity(intent);
         });
 

@@ -17,7 +17,7 @@ public class EvidenceActivity extends AppCompatActivity {
 
         submitEvidenceButton = (Button) findViewById(R.id.evidence_submitEvidence_button);
         submitEvidenceButton.setOnClickListener(view -> {
-            Intent intent = new Intent(getApplicationContext(), ChallNotResolvedActivity.class);
+            Intent intent = new Intent(getApplicationContext(), EvidenceSharedActivity.class);
             startActivity(intent);
 
         });
