@@ -26,6 +26,18 @@
   {
     "challenger": "ruisong1998",
     "challenged": "diveyanand",
+    "startDate": "2020-11-13",
+    "description": "I challenge that you cannot score higher on the midterm than I can",
+    "endDate": "2020-07-09",
+    "penaltyByChallenger": "Loser has to pay for all the hotdogs eaten",
+    "penaltyByChallenged": "",
+    "finalPenalty": "",
+    "winner": "",
+    "status": "4"
+  },
+  {
+    "challenger": "ruisong1998",
+    "challenged": "diveyanand",
     "startDate": "2020-11-12",
     "description": "You keep saying that you can do more pushup than me",
     "endDate": "2020-12-13",
@@ -46,6 +58,31 @@
     "finalPenalty": "Loser has to buy winner 10 lunch",
     "winner": "",
     "status": "1"
+  },
+  {
+    "challenger": "ruisong1998",
+    "challenged": "diveyanand",
+    "startDate": "2020-5-12",
+    "description": "I challenge that you cannot read more books than I can during break",
+    "endDate": "2020-12-31",
+    "penaltyByChallenger": "Loser has to do buy winner a coffee",
+    "penaltyByChallenged": "Loser has to buy winner 10 lunch",
+    "finalPenalty": "Loser has to buy winner 10 lunch",
+    "winner": "",
+    "status": "1"
+  },
+
+  {
+    "challenger": "ruisong1998",
+    "challenged": "diveyanand",
+    "startDate": "2020-5-12",
+    "description": "I challenge that you cannot do more push-ups than me",
+    "endDate": "2020-08-23",
+    "penaltyByChallenger": "Loser has to do buy winner a coffee",
+    "penaltyByChallenged": "Loser has to buy winner 10 lunch",
+    "finalPenalty": "Loser has to buy winner 10 lunch",
+    "winner": "",
+    "status": "5"
   },
   {
     "challenger": "ruisong1998",
