@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You Win!"
+        android:textSize="60dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="@color/green"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ruisong has to buy you a coffee according to your agreement."
+        android:textSize="40dp"
+        android:gravity="center"
+        android:padding="30dp"
+        android:textColor="@color/black"></TextView>
+
+    <Button
+        android:id="@+id/winning_resolution_main_activity_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return to Main Menu"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/green"
+        android:layout_marginHorizontal="20dp"
+        android:padding="15dp"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/winning_resolution_challenge_again_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Challenge Again"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/red"
+        android:layout_marginHorizontal="20dp"
+        android:padding="15dp"
+        android:textSize="20dp" />
+
+
+
+</LinearLayout>
