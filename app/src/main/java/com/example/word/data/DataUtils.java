@@ -28,6 +28,10 @@ public class DataUtils {
     }
   }
 
+  public static User [] getUsers(){
+    return userList;
+  }
+
   public static User getUser(String userName) {
     for (User user : userList) {
       if (user.getUsername().equals(userName)) return user;
