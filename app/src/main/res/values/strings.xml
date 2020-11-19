@@ -4,4 +4,16 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="new_challenge">New Challenge</string>
+    <string-array name="friends_array">
+        <item>Maliek</item>
+        <item>Mallika</item>
+        <item>Ruisong</item>
+        <item>Adi</item>
+        <item>Mayra</item>
+        <item>Divey</item>
+        <item>Aid</item>
+        <item>Will</item>
+
+
+    </string-array>
 </resources>

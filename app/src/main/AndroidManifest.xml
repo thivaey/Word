@@ -9,22 +9,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Word">
-        <activity android:name=".ResolutionActivity"></activity>
-        <activity android:name=".LoginActivity">
+        <activity android:name=".EvidenceSharedActivity"></activity>
+        <activity android:name=".SelectFriendsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".EvidenceActivity" />
+        <activity android:name=".ChallNotResolvedConfirmationActivity" />
+        <activity android:name=".ChallNotResolvedActivity" />
+        <activity android:name=".UploadEvidenceActivity"></activity>
+        <activity android:name=".DisagreementOccuredActivity" />
+        <activity android:name=".ResolutionActivity" />
+        <activity android:name=".LoginActivity"></activity>
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
     </application>
 
