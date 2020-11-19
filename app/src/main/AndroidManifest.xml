@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.word">
+    package="com.example.word" >
 
     <application
         android:allowBackup="true"
@@ -19,7 +19,12 @@
         <activity android:name=".ui.newchallenge.NewChallengeDescriptionActivity" />
         <activity android:name=".ui.newchallenge.NewChallengeActivity" />
 
-        <activity android:name=".LoginActivity">
+<!--        <activity-->
+<!--            android:name=".ActiveChallenges"-->
+<!--            android:label="@string/title_activity_active_challenges" >-->
+<!--        </activity>-->
+
+        <activity android:name=".LoginActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

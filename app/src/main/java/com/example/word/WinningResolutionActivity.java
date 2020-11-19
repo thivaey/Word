@@ -7,6 +7,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.word.data.DataUtils;
+import com.example.word.ui.newchallenge.NewChallengeActivity;
+import com.example.word.ui.newchallenge.NewChallengeDescriptionActivity;
+
 public class WinningResolutionActivity extends AppCompatActivity {
 
     Button main;
@@ -21,10 +25,17 @@ public class WinningResolutionActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-
-                        Intent intent = new Intent(WinningResolutionActivity.this, MainActivity.class);
-                        startActivity(intent);
+                        startActivity(new Intent(getBaseContext(), MainActivity.class));
                     }
+                }
+        );
+
+        ((Button)findViewById(R.id.winning_resolution_challenge_again_button)).setOnClickListener(
+                v->{
+                    Intent intent = new Intent(getBaseContext(), NewChallengeActivity.class);
+                    intent.putExtra("username", DataUtils.getUser(DataUtils.getCurrUser()).getFullName());
+                    intent.putExtra("friendName", "Ruisong");
+                    startActivity(intent);
                 }
         );
     }

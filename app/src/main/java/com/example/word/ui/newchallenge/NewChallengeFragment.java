@@ -17,6 +17,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.word.MainActivity;
 import com.example.word.R;
+import com.example.word.data.DataUtils;
 
 import java.util.List;
 
@@ -40,8 +41,8 @@ public class NewChallengeFragment extends Fragment implements View.OnClickListen
             }
         });
 
-        username = getActivity().getIntent().getExtras().getString("username");
-
+//        username = getActivity().getIntent().getExtras().getString("username");
+        username = DataUtils.getCurrUser();
         Button friend1 = (Button) root.findViewById(R.id.new_challenge_friend1);
         Button friend2 = (Button) root.findViewById(R.id.new_challenge_friend2);
         Button friend3 = (Button) root.findViewById(R.id.new_challenge_friend3);

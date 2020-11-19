@@ -22,7 +22,7 @@ public class ResolveActivity extends AppCompatActivity {
             new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent intent = new Intent(ResolveActivity.this, SettlementWinActivity.class);
+                    Intent intent = new Intent(ResolveActivity.this, MainActivity.class);
                     startActivity(intent);
                 }
             }
@@ -33,7 +33,7 @@ public class ResolveActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View view) {
 
-                        Intent intent = new Intent(ResolveActivity.this, SettlementLoseActivity.class);
+                        Intent intent = new Intent(ResolveActivity.this, MainActivity.class);
                         startActivity(intent);
                     }
                 }

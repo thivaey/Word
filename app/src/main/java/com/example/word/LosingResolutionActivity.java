@@ -21,9 +21,7 @@ public class LosingResolutionActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-
-                        Intent intent = new Intent(LosingResolutionActivity.this, MainActivity.class);
-                        startActivity(intent);
+                        startActivity(new Intent(getBaseContext(), MainActivity.class));
                     }
                 }
         );

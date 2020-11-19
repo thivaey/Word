@@ -16,7 +16,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="You have to buy Ruisong coffee according to your agreement."
+        android:text="Ruisong has to buy you a coffee according to your agreement."
         android:textSize="40dp"
         android:gravity="center"
         android:padding="30dp"
