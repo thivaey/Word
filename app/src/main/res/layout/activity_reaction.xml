@@ -57,15 +57,16 @@
                 <TextView
                     android:id="@+id/reaction_challenger"
                     android:layout_width="match_parent"
+                    android:textSize="14sp"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="15sp"
+                    android:textSize="16sp"
                     android:id="@+id/reaction_description"
                     android:ellipsize="end"
-                    android:maxLines="4"
+                    android:maxLines="3"
                     android:text="@string/placeHolder"/>
             </LinearLayout>
         </LinearLayout>
@@ -74,17 +75,51 @@
             android:layout_height="wrap_content"
             android:id="@+id/reaction_description_title"
             android:textStyle="bold"
+            android:layout_marginTop="15dp"
             android:layout_marginStart="10dp"
-            android:textSize="18dp"
-            android:text="Description (By Jenny)"/>
+            android:textSize="18sp"
+            android:text="Description (By Jenny):"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/reaction_description_details"
-            android:layout_marginStart="10dp"
-            android:textSize="18dp"
+            android:layout_marginHorizontal="10dp"
+            android:textSize="18sp"
             android:text="@string/placeHolder"/>
-
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reaction_penalty_title"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="10dp"
+            android:textSize="18sp"
+            android:text="Penalty (By Jenny):"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reaction_penalty_details"
+            android:layout_marginHorizontal="10dp"
+            android:textSize="18sp"
+            android:text="@string/placeHolder"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reaction_start_date"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="10dp"
+            android:textSize="18sp"
+            android:text="SENT on: 2020-11-15"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reaction_end_date"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="10dp"
+            android:textSize="18sp"
+            android:text="ENDS on: 2020-11-15"/>
     </LinearLayout>
     <View
         android:layout_width="match_parent"
@@ -93,6 +128,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="60dp"
+        android:id="@+id/reaction_counter_challenge"
+        android:clickable="true"
         android:textSize="30sp"
         android:background="@color/teal_200"
         android:text="@string/counterChallenge"
@@ -112,6 +149,8 @@
             android:textSize="30sp"
             android:background="@color/decline_red"
             android:text="@string/decline"
+            android:clickable="true"
+            android:id="@+id/reaction_decline"
             android:layout_weight="1"/>
         <View
             android:layout_width="2dp"
@@ -124,6 +163,8 @@
             android:textSize="30sp"
             android:background="@color/accept_green"
             android:text="@string/accept"
+            android:clickable="true"
+            android:id="@+id/reaction_accept"
             android:layout_weight="1"/>
     </LinearLayout>
 </LinearLayout>
