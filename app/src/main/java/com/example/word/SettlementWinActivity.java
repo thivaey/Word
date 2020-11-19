@@ -7,22 +7,24 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class LosingActivity extends AppCompatActivity {
+public class SettlementWinActivity extends AppCompatActivity {
 
-    Button losingResolutionButton;
+    Button agreeButton;
+    Button disagreeButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_losing);
-        losingResolutionButton = (Button)(findViewById(R.id.losing_resolve_button));
+        setContentView(R.layout.activity_settlement_win);
+        agreeButton = (Button)(findViewById(R.id.settlement_win_agree_button));
+        disagreeButton = (Button)(findViewById(R.id.settlement_win_disagree_button));
 
-        losingResolutionButton.setOnClickListener(
+        agreeButton.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
 
-                        Intent intent = new Intent(LosingActivity.this, LosingResolutionActivity.class);
+                        Intent intent = new Intent(SettlementWinActivity.this, WinningActivity.class);
                         startActivity(intent);
                     }
                 }

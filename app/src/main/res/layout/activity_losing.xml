@@ -22,7 +22,7 @@
         android:textColor="@color/black"></TextView>
 
     <Button
-        android:id="@+id/losing_button"
+        android:id="@+id/losing_resolve_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Complete Penalty"

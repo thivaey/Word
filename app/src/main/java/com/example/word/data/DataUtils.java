@@ -1,8 +1,10 @@
+
 package com.example.word.data;
 
-import com.annimon.stream.Stream;
+
 import com.example.word.data.model.Challenge;
 import com.example.word.data.model.User;
+import com.annimon.stream.Stream;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -27,6 +29,10 @@ public class DataUtils {
     } catch (Exception e) {
       e.printStackTrace();
     }
+  }
+
+  public static User [] getUsers(){
+    return userList;
   }
 
   public static User getUser(String userName) {

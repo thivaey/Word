@@ -1,27 +1,27 @@
-package com.example.word;
+package com.example.word.ui.newchallenge;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+import android.widget.TextView;
 
-public class LosingResolutionActivity extends AppCompatActivity {
+import com.example.word.MainActivity;
+import com.example.word.R;
 
-    Button main;
+public class NewChallengeSentActivity extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_new_challenge_sent);
 
-        setContentView(R.layout.activity_losing_resolution);
-        main = (Button)(findViewById(R.id.losing_resolution_main_menu_button));
-
-        main.setOnClickListener(
+        ((TextView) findViewById(R.id.new_ch_sent_text)).setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        startActivity(new Intent(getBaseContext(), MainActivity.class));
+                        navigateUpTo(new Intent(getBaseContext(), MainActivity.class));
                     }
                 }
         );
