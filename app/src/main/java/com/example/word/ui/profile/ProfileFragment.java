@@ -13,6 +13,10 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.word.R;
+import com.example.word.data.DataUtils;
+import com.example.word.data.model.User;
+
+import static com.example.word.data.DataUtils.getUser;
 
 public class ProfileFragment extends Fragment {
 
@@ -32,9 +36,12 @@ public class ProfileFragment extends Fragment {
         profileViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
-                fullNameTextView.setText(s);
-                userNameTextView.setText(s);
-                ratingTextView.setText(s);
+                String curr_user = DataUtils.getCurrUser();
+                User user = getUser(curr_user);
+
+                fullNameTextView.setText(user.getFullName());
+                userNameTextView.setText(curr_user);
+                ratingTextView.setText(String.valueOf(user.getRating()) + "★");
             }
         });
 
