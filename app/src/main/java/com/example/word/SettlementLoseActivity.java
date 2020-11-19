@@ -20,13 +20,14 @@ public class SettlementLoseActivity extends AppCompatActivity {
         disagreeButton = (Button)(findViewById(R.id.settlement_disagree_button));
 
         agreeButton.setOnClickListener(
-                new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
+                v->{
+                        startActivity(new Intent(SettlementLoseActivity.this, LosingActivity.class));
+                }
+        );
 
-                        Intent intent = new Intent(SettlementLoseActivity.this, LosingActivity.class);
-                        startActivity(intent);
-                    }
+        disagreeButton.setOnClickListener(
+                v-> {
+                    startActivity(new Intent(SettlementLoseActivity.this, DisagreementOccuredActivity.class));
                 }
         );
 
