@@ -85,17 +85,17 @@
         </LinearLayout>
 
         <!-- Challenge Button-->
-        <Button
-            android:id="@+id/profile_challenge_button"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/profile_details"
-            android:layout_centerInParent="true"
-            android:layout_marginTop="8dp"
-            android:textAllCaps="false"
-            android:textStyle="bold"
-            android:textSize="17dp"
-            android:text="Challenge" />
+<!--        <Button-->
+<!--            android:id="@+id/profile_challenge_button"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/profile_details"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="17dp"-->
+<!--            android:text="Challenge" />-->
 
 
         <!-- Challenge History TextView -->
@@ -103,7 +103,7 @@
             android:id="@+id/profile_challenge_history"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/profile_challenge_button"
+            android:layout_below="@id/profile_details"
             android:layout_centerInParent="true"
             android:layout_marginTop="24dp"
             android:textAlignment="center"
