@@ -6,6 +6,7 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -54,9 +55,9 @@ public class ReactionActivity extends AppCompatActivity {
       endDate.setText("ENDS AT: " + invitation.getEndDate());
     }
 
-    TextView counterChallenge = (TextView) findViewById(R.id.reaction_counter_challenge);
-    TextView accept = (TextView) findViewById(R.id.reaction_accept);
-    TextView decline = (TextView) findViewById(R.id.reaction_decline);
+    ImageView counterChallenge = (ImageView) findViewById(R.id.reaction_counter_challenge);
+    ImageView accept = (ImageView) findViewById(R.id.reaction_accept);
+    ImageView decline = (ImageView) findViewById(R.id.reaction_decline);
 
     counterChallenge.setOnClickListener(view -> {
       Intent intent = new Intent(getApplicationContext(), CounterChallenge.class);
