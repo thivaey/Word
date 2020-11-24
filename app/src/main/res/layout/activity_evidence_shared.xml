@@ -13,36 +13,24 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Your evidence has been shared with Credible Users"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-
-            android:textAlignment="center"
+            android:text="Your Evidence \n was Sent !"
+            android:textSize="50dp"
+            android:paddingTop="160dp"
+            android:paddingBottom="250dp"
             android:gravity="center"
-            android:background="@color/teal_700"
-            android:textSize="50sp"
-            android:paddingTop="75dp"
-            android:paddingBottom="75dp"
-            android:layout_weight="3"
-
-
-
-
-            />
+            android:textAllCaps="true"
+            android:textStyle="bold"/>
         <Button
             android:id="@+id/evidenceSharedButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Return To main menu"
-
-
-
-            android:paddingTop="30dp"
-            android:paddingBottom="30dp"
+            android:text="Return to Home"
             android:textColor="@color/black"
-
-
-            android:backgroundTint="@color/gray"/>
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:layout_marginHorizontal="20dp"
+            android:padding="25dp"
+            android:layout_marginTop="20dp"/>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

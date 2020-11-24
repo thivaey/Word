@@ -9,62 +9,57 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-
         android:orientation="vertical">
+
          <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Evidence"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:background="@color/teal_700"
-            android:textSize="20sp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Evidence"
+             android:textSize="35dp"
+             android:paddingTop="20dp"
+             android:paddingBottom="10dp"
+             android:gravity="center"
+             android:textAllCaps="true"
+             android:textStyle="bold"/>
 
-            android:paddingTop="10dp"
-
-            android:paddingBottom="10dp" />
         <ImageView
             android:id="@+id/evidence_imageView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:src="@drawable/iconfinder_person_account_ciecle"/>
+            android:layout_height="363dp"
+            android:src="@drawable/evidence"
+            android:layout_marginBottom="25dp"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Description: "
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:paddingBottom="25dp"/>
 
-            android:text="Description: "/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Description Here"
+            android:layout_marginLeft="20dp"
             android:textAlignment="viewStart"
             android:textColor="@color/black"
-            android:layout_weight="1"/>
+            android:textSize="17dp"
+            android:paddingBottom="25dp"/>
 
         <Button
             android:id="@+id/evidence_submitEvidence_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:backgroundTint="@color/teal_700"
-
-            android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp"
-
-
             android:text="Submit Evidence"
-            android:gravity="center"
-            android:textAlignment="gravity"
-
-            android:textColor="@color/black" />
-
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:layout_marginHorizontal="20dp"
+            android:paddingVertical="20dp"
+            android:layout_marginTop="35dp"/>
 
     </LinearLayout>
-
-
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

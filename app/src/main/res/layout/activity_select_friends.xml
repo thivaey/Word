@@ -13,13 +13,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Select Friends"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:background="@color/teal_700"
-            android:textSize="30sp"
+            android:textSize="45dp"
             android:paddingTop="50dp"
-            android:paddingBottom="50dp"/>
+            android:paddingBottom="50dp"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textStyle="bold"/>
+
         <ListView
             android:id="@+id/list"
             android:layout_width="match_parent"
@@ -34,19 +34,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="Back"
+                android:textColor="@color/black"
                 android:backgroundTint="@color/gray"
                 android:layout_weight="1"
                 android:layout_marginLeft="10dp"
+                android:textSize="20dp"
                 android:layout_marginRight="10dp"
                 android:layout_alignParentBottom="true"/>
             <Button
                 android:id="@+id/select_friends_next_button"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:backgroundTint="@color/gray"
                 android:text="Next"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
                 android:layout_weight="1"
                 android:layout_alignParentBottom="true"/>
 
