@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.newchallenge.NewChallengeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/new_challenge_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:background="@color/tealPrimary" />
+
+        <Button
+            android:id="@+id/new_challenge_choose_from_template_button"
+            android:text="Choose from template"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:layout_marginVertical="100dp"
+            android:layout_marginHorizontal="50dp"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/new_challenge_custom_challenge_button"
+            android:text="Custom Challenge"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:layout_marginHorizontal="50dp"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

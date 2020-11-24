@@ -17,6 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
+        android:text="diveyanand"
         android:hint="Username"/>
 
     <EditText
@@ -43,7 +44,7 @@
         android:text="Sign up"
         android:textColor="@color/black"
         android:layout_marginHorizontal="20dp"
-        android:backgroundTint="@color/gray"
+        android:backgroundTint="@color/grey"
         android:padding="15dp"/>
 
 
