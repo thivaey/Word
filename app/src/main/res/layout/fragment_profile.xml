@@ -31,7 +31,7 @@
                     android:id="@+id/imageView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ruisong" />
+                    app:srcCompat="@drawable/divey" />
             </androidx.cardview.widget.CardView>
         </LinearLayout>
 
@@ -155,7 +155,7 @@
                                 android:id="@+id/history_card_1_image"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                app:srcCompat="@drawable/divey" />
+                                app:srcCompat="@drawable/ruisong" />
                         </androidx.cardview.widget.CardView>
 
                         <LinearLayout
@@ -170,7 +170,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="10dp"
                                 android:layout_gravity="center_vertical"
-                                android:text="You beat Divey!"
+                                android:text="You beat Ruisong!"
                                 android:textStyle="bold"/>
 
                             <TextView
