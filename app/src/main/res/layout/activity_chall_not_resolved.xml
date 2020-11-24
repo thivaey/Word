@@ -5,44 +5,49 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ChallNotResolvedActivity">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Challenge Not \n Resolved !"
-            android:textSize="45dp"
-            android:paddingTop="150dp"
-            android:paddingBottom="200dp"
-            android:gravity="center"
-            android:textAllCaps="true"
-            android:textStyle="bold"/>
-        <Button
-            android:id="@+id/goPublic_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Resolve with Friends"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            android:textAllCaps="false"
-            android:layout_marginHorizontal="20dp"
-            android:padding="25dp"
-            android:layout_marginTop="20dp"/>
-        <Button
-            android:id="@+id/resolveWithLowerCredScore_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Resolve with Lower Credibility"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            android:textAllCaps="false"
-            android:layout_marginHorizontal="20dp"
-            android:paddingVertical="25dp"
-            android:layout_marginTop="30dp"
-            android:backgroundTint="@color/gray"/>
 
-    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Challenge Not \n Resolved !"
+                android:textSize="45dp"
+                android:paddingVertical="100sp"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:textStyle="bold"/>
+            <Button
+                android:id="@+id/goPublic_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Resolve with Friends"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textAllCaps="false"
+                android:layout_marginHorizontal="20dp"
+                android:padding="25dp"
+                android:layout_marginTop="20dp"/>
+            <Button
+                android:id="@+id/resolveWithLowerCredScore_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Resolve with Lower Credibility"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textAllCaps="false"
+                android:layout_marginHorizontal="20dp"
+                android:paddingVertical="25dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/gray"/>
+
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
