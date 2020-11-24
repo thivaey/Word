@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.word" >
+    package="com.example.word">
 
     <application
         android:allowBackup="true"
@@ -9,54 +9,52 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Word">
-
-        <activity android:name=".handleInvitation.CounterChallenge"/>
+        <activity android:name=".ui.newchallenge.NewChallengeTemplateActivity"></activity>
+        <activity android:name=".handleInvitation.CounterChallenge" />
         <activity android:name=".handleInvitation.ReactionActivity" />
         <activity android:name=".ResolutionActivity" />
-
-        <activity android:name=".ui.newchallenge.NewChallengeSentActivity"/>
+        <activity android:name=".ui.newchallenge.NewChallengeSentActivity" />
         <activity android:name=".ui.newchallenge.NewChallengeReviewActivity" />
         <activity android:name=".ui.newchallenge.NewChallengeDescriptionActivity" />
         <activity android:name=".ui.newchallenge.NewChallengeActivity" />
-        <activity android:name=".LoginActivity" >
-                <intent-filter>
-                        <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-                        <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
-        <activity android:name=".EvidenceSharedActivity"/>
-        <activity android:name=".SelectFriendsActivity"/>
+        <activity android:name=".EvidenceSharedActivity" />
+        <activity android:name=".SelectFriendsActivity" />
         <activity android:name=".EvidenceActivity" />
         <activity android:name=".ChallNotResolvedConfirmationActivity" />
         <activity android:name=".ChallNotResolvedActivity" />
-        <activity android:name=".UploadEvidenceActivity"/>
+        <activity android:name=".UploadEvidenceActivity" />
         <activity android:name=".DisagreementOccuredActivity" />
         <activity
             android:name=".ResolveActivity"
-            android:label="@string/app_name"/>
+            android:label="@string/app_name" />
         <activity
             android:name=".SettlementLoseActivity"
-            android:label="@string/app_name"/>
+            android:label="@string/app_name" />
         <activity
             android:name=".WinningActivity"
-            android:label="@string/app_name"/>
+            android:label="@string/app_name" />
         <activity
             android:name=".WinningResolutionActivity"
-            android:label="@string/app_name"/>
+            android:label="@string/app_name" />
         <activity
             android:name=".LosingActivity"
-            android:label="@string/app_name"/>
+            android:label="@string/app_name" />
         <activity
             android:name=".LosingResolutionActivity"
-            android:label="@string/app_name"/>
+            android:label="@string/app_name" />
         <activity
             android:name=".SettlementWinActivity"
-            android:label="@string/app_name"/>
+            android:label="@string/app_name" />
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name">
-        </activity>
+            android:label="@string/app_name"></activity>
     </application>
 
 </manifest>

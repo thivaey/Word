@@ -31,7 +31,12 @@ public class NewChallengeActivity extends AppCompatActivity {
         templateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(NewChallengeActivity.this, "This feature is not available yet", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(NewChallengeActivity.this, "This feature is not available yet", Toast.LENGTH_SHORT).show();
+
+                Intent intent = new Intent(NewChallengeActivity.this, NewChallengeTemplateActivity.class);
+                intent.putExtra("username", username);
+                intent.putExtra("friendName",friendName);
+                startActivity(intent);
             }
         });
 
@@ -42,6 +47,11 @@ public class NewChallengeActivity extends AppCompatActivity {
                         Intent intent = new Intent(NewChallengeActivity.this, NewChallengeDescriptionActivity.class);
                         intent.putExtra("username", username);
                         intent.putExtra("friendName",friendName);
+
+                        intent.putExtra("description", "");
+                        intent.putExtra("winCondition", "");
+                        intent.putExtra("reward", "");
+
                         startActivity(intent);
                     }
                 }

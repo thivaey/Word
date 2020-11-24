@@ -120,19 +120,29 @@
                     android:minLines="5"
                     android:scrollbars="vertical"
                     android:maxLines="10"/>
-                <TextView
+
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:layout_marginTop="10dp"
-                    android:textSize="18sp"
-                    android:paddingHorizontal="10dp"
-                    android:text="Selected End Date"/>
-                <DatePicker
-                    android:layout_width="match_parent"
-                    android:layout_marginHorizontal="10dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_height="wrap_content"/>
+                    android:orientation="horizontal"
+                    android:gravity="bottom">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dp"
+                        android:textSize="18sp"
+                        android:paddingStart="10dp"
+                        android:text="Selected End Date"/>
+                    <Button
+                        android:id="@+id/counter_set_date_button"
+                        android:layout_width="wrap_content"
+                        android:text="Set Date"
+                        android:textColor="@color/black"
+                        android:layout_marginHorizontal="15dp"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
