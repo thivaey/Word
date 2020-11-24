@@ -18,7 +18,7 @@
             android:textColor="@color/black"
 
             android:textAlignment="center"
-            android:background="@color/teal_700"
+            android:background="@color/tealSecondary"
             android:textSize="20sp"
             android:paddingTop="75dp"
             android:paddingBottom="75dp"
@@ -41,7 +41,7 @@
             android:textColor="@color/black"
 
 
-            android:backgroundTint="@color/greenButtonColor"/>
+            android:backgroundTint="@color/tealPrimary"/>
         <Button
             android:id="@+id/disagreement_resolveWithCredScore_button"
             android:layout_width="match_parent"
@@ -54,7 +54,7 @@
 
 
             android:textColor="@color/black"
-            android:backgroundTint="@color/red"/>
+            android:backgroundTint="@color/grey"/>
 
     </LinearLayout>
 

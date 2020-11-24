@@ -16,7 +16,7 @@
             android:textStyle="bold"
             android:textColor="@color/black"
             android:textAlignment="center"
-            android:background="@color/teal_700"
+            android:background="@color/tealSecondary"
             android:textSize="20sp"
             android:paddingTop="75dp"
             android:paddingBottom="75dp"
@@ -38,7 +38,7 @@
             android:paddingBottom="30dp"
             android:textColor="@color/black"
 
-            android:backgroundTint="@color/gray"/>
+            android:backgroundTint="@color/grey"/>
         <Button
             android:id="@+id/uploadDevice_button"
             android:layout_width="match_parent"
@@ -50,7 +50,7 @@
             android:paddingTop="30dp"
             android:paddingBottom="30dp"
             android:textColor="@color/black"
-            android:backgroundTint="@color/gray"/>
+            android:backgroundTint="@color/grey"/>
 
     </LinearLayout>
 

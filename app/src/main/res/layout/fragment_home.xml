@@ -12,7 +12,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/teal_200"
+            android:background="@color/tealPrimary"
             android:gravity="center"
             android:paddingVertical="10sp"
             android:text="Active Challenges"
@@ -42,7 +42,7 @@
                     app:cardCornerRadius="40dp">
                     <ImageView
                         android:id="@+id/active_challenges_profile1"
-                        android:src="@drawable/profile"
+                        android:src="@drawable/ruisong"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"/>
                 </androidx.cardview.widget.CardView>
@@ -97,7 +97,7 @@
                     app:cardCornerRadius="40dp">
                     <ImageView
                         android:id="@+id/active_challenges_profile2"
-                        android:src="@drawable/profile"
+                        android:src="@drawable/ruisong"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"/>
                 </androidx.cardview.widget.CardView>
@@ -137,7 +137,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/teal_200"
+            android:background="@color/tealPrimary"
             android:gravity="center"
             android:paddingVertical="10sp"
             android:text="Unresolved Challenges"
@@ -167,7 +167,7 @@
                     app:cardCornerRadius="40dp">
                     <ImageView
                         android:id="@+id/unresolved_challenges_profile1"
-                        android:src="@drawable/profile"
+                        android:src="@drawable/ruisong"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"/>
                 </androidx.cardview.widget.CardView>
@@ -209,7 +209,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/teal_200"
+            android:background="@color/tealPrimary"
             android:gravity="center"
             android:paddingVertical="10sp"
             android:text="Pending Penalty"
@@ -239,7 +239,7 @@
                     app:cardCornerRadius="40dp">
                     <ImageView
                         android:id="@+id/pending_challenges_profile1"
-                        android:src="@drawable/profile"
+                        android:src="@drawable/ruisong"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"/>
                 </androidx.cardview.widget.CardView>

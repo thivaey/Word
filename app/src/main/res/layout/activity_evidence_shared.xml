@@ -19,7 +19,7 @@
 
             android:textAlignment="center"
             android:gravity="center"
-            android:background="@color/teal_700"
+            android:background="@color/tealSecondary"
             android:textSize="50sp"
             android:paddingTop="75dp"
             android:paddingBottom="75dp"
@@ -42,7 +42,7 @@
             android:textColor="@color/black"
 
 
-            android:backgroundTint="@color/gray"/>
+            android:backgroundTint="@color/grey"/>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

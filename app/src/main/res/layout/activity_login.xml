@@ -43,7 +43,7 @@
         android:text="Sign up"
         android:textColor="@color/black"
         android:layout_marginHorizontal="20dp"
-        android:backgroundTint="@color/gray"
+        android:backgroundTint="@color/grey"
         android:padding="15dp"/>
 
 
