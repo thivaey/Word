@@ -12,44 +12,35 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Upload Evidence"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:background="@color/tealSecondary"
-            android:textSize="20sp"
-            android:paddingTop="75dp"
-            android:paddingBottom="75dp"
-            android:layout_marginBottom="200dp"
-
-
-
-
-            />
+            android:text=" Upload \n Evidence"
+            android:textSize="55dp"
+            android:paddingTop="160dp"
+            android:paddingBottom="125dp"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textStyle="bold"/>
         <Button
             android:id="@+id/takePicture_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Take Picture"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"
-            android:layout_marginBottom="25dp"
-            android:paddingTop="30dp"
-            android:paddingBottom="30dp"
             android:textColor="@color/black"
-
-            android:backgroundTint="@color/grey"/>
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:layout_marginHorizontal="20dp"
+            android:padding="25dp"
+            android:layout_marginTop="20dp"/>
         <Button
             android:id="@+id/uploadDevice_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Upload From Device"
-
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"
-            android:paddingTop="30dp"
-            android:paddingBottom="30dp"
+            android:text="Upload from Device"
             android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:layout_marginHorizontal="20dp"
+            android:padding="25dp"
+            android:layout_marginTop="20dp"
             android:backgroundTint="@color/grey"/>
 
     </LinearLayout>

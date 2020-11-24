@@ -6,62 +6,81 @@
     android:layout_height="match_parent"
 
     tools:context=".ChallNotResolvedConfirmationActivity">
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Challenge Not \n Resolved"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:background="@color/tealSecondary"
-            android:textSize="30sp"
-            android:paddingTop="75dp"
-            android:paddingBottom="75dp"
-            android:layout_marginBottom="150dp" />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="This action will lower your credibility score from 4.7 to 4.2 \n\n Do you wish to continue?"
-            android:textStyle="bold"
-            android:textSize="20dp"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:background="@color/tealSecondary"
-
-            android:paddingTop="75dp"
-            android:paddingBottom="75dp"/>
+        android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <Button
-                android:id="@+id/challNotResolvedContinue_button"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:backgroundTint="@color/grey"
-                android:textColor="@color/black"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Challenge Not \n Resolved!"
+                android:textSize="45dp"
+                android:paddingTop="60dp"
+                android:paddingBottom="50dp"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This action will cause your credibility score to be lowered from 4.7 to 4.2"
+                android:textStyle="bold"
+                android:textSize="25dp"
                 android:layout_marginLeft="50dp"
-                android:layout_marginRight="100dp"
-                android:text="Continue"/>
-            <Button
-                android:id="@+id/challNotResolvedBack_button"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:backgroundTint="@color/grey"
-                android:textColor="@color/black"
                 android:layout_marginRight="50dp"
-                android:text="Back"/>
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:paddingVertical="40dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do you wish to continue?"
+                android:textSize="25dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:paddingBottom="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/challNotResolvedContinue_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAllCaps="false"
+                    android:layout_marginHorizontal="20dp"
+                    android:textSize="20dp"
+                    android:paddingVertical="25dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Continue"/>
+                <Button
+                    android:id="@+id/challNotResolvedBack_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAllCaps="false"
+                    android:backgroundTint="@color/grey"
+                    android:layout_marginHorizontal="20dp"
+                    android:textSize="20dp"
+                    android:paddingVertical="25dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Back"/>
+
+
+            </LinearLayout>
 
 
         </LinearLayout>
+    </ScrollView>
 
-
-    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
