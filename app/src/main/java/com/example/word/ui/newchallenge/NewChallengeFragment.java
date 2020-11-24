@@ -6,11 +6,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
@@ -43,7 +45,7 @@ public class NewChallengeFragment extends Fragment implements View.OnClickListen
 
 //        username = getActivity().getIntent().getExtras().getString("username");
         username = DataUtils.getCurrUser();
-        Button friend1 = (Button) root.findViewById(R.id.new_challenge_friend1);
+        CardView friend1 = (CardView) root.findViewById(R.id.new_challenge_friend1);
         Button friend2 = (Button) root.findViewById(R.id.new_challenge_friend2);
         Button friend3 = (Button) root.findViewById(R.id.new_challenge_friend3);
         Button friend4 = (Button) root.findViewById(R.id.new_challenge_friend4);
@@ -70,8 +72,12 @@ public class NewChallengeFragment extends Fragment implements View.OnClickListen
 
     @Override
     public void onClick(View view) {
-        Button button = (Button) view;
-        String friendName = button.getText().toString();
+//        Button button = (Button) view;
+        CardView cardView = (CardView) view;
+        LinearLayout ll1 = (LinearLayout) cardView.getChildAt(0);
+        LinearLayout ll2 = (LinearLayout) ll1.getChildAt(1);
+        TextView tv1 = (TextView) ll2.getChildAt(0);
+        String friendName = tv1.getText().toString();
 
         Intent intent = new Intent(getContext(), NewChallengeActivity.class);
         intent.putExtra("username", username);
