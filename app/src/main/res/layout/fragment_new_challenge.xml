@@ -49,6 +49,64 @@
                         android:layout_marginRight="10dp">
 
                         <androidx.cardview.widget.CardView
+                            android:id="@+id/new_challenge_friend0_image_holder"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center_vertical"
+                            app:cardCornerRadius="25dp">
+
+                            <ImageView
+                                android:id="@+id/new_challenge_friend0_image"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:srcCompat="@drawable/profile" />
+                        </androidx.cardview.widget.CardView>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:id="@+id/new_challenge_friend0_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_gravity="center_vertical"
+                                android:text="Ziang Xiao"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:id="@+id/new_challenge_friend0_username"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_gravity="center_vertical"
+                                android:text="\@ziangxiao"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:elevation="20dp"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp">
+
+                        <androidx.cardview.widget.CardView
                             android:id="@+id/new_challenge_friend1_image_holder"
                             android:layout_width="50dp"
                             android:layout_height="50dp"
@@ -84,6 +142,238 @@
                                 android:layout_marginLeft="10dp"
                                 android:layout_gravity="center_vertical"
                                 android:text="\@adityasriram" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:elevation="20dp"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/new_challenge_friend2_image_holder"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center_vertical"
+                            app:cardCornerRadius="25dp">
+
+                            <ImageView
+                                android:id="@+id/new_challenge_friend2_image"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:srcCompat="@drawable/mayra" />
+                        </androidx.cardview.widget.CardView>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:id="@+id/new_challenge_friend2_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_gravity="center_vertical"
+                                android:text="Mayra Vazquez"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:id="@+id/new_challenge_friend2_username"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_gravity="center_vertical"
+                                android:text="\@mayravazquez" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:elevation="20dp"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/new_challenge_friend3_image_holder"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center_vertical"
+                            app:cardCornerRadius="25dp">
+
+                            <ImageView
+                                android:id="@+id/new_challenge_friend3_image"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:srcCompat="@drawable/divey" />
+                        </androidx.cardview.widget.CardView>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:id="@+id/new_challenge_friend3_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_gravity="center_vertical"
+                                android:text="Divey Anand"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:id="@+id/new_challenge_friend3_username"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_gravity="center_vertical"
+                                android:text="\@diveyanand" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:elevation="20dp"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/new_challenge_friend4_image_holder"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center_vertical"
+                            app:cardCornerRadius="25dp">
+
+                            <ImageView
+                                android:id="@+id/new_challenge_friend4_image"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:srcCompat="@drawable/mallika" />
+                        </androidx.cardview.widget.CardView>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:id="@+id/new_challenge_friend4_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_gravity="center_vertical"
+                                android:text="Mallika Patil"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:id="@+id/new_challenge_friend4_username"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_gravity="center_vertical"
+                                android:text="\@mallikapatil"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:elevation="20dp"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/new_challenge_friend5_image_holder"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center_vertical"
+                            app:cardCornerRadius="25dp">
+
+                            <ImageView
+                                android:id="@+id/new_challenge_friend5_image"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:srcCompat="@drawable/profile" />
+                        </androidx.cardview.widget.CardView>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:id="@+id/new_challenge_friend5_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_gravity="center_vertical"
+                                android:text="Maliek Wade"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:id="@+id/new_challenge_friend5_username"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_gravity="center_vertical"
+                                android:text="\@maliekwade"/>
                         </LinearLayout>
 
                     </LinearLayout>
@@ -148,50 +438,6 @@
                 <Button
                     android:text="Ziang Xiao"
                     android:id="@+id/new_challenge_friend6"
-                    android:textColor="@color/black"
-                    android:backgroundTint="@color/white"
-                    android:textSize="24dp"
-                    android:padding="20dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"/>
-
-                <Button
-                    android:text="Charles"
-                    android:id="@+id/new_challenge_friend7"
-                    android:textColor="@color/black"
-                    android:backgroundTint="@color/white"
-                    android:textSize="24dp"
-                    android:padding="20dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"/>
-
-                <Button
-                    android:text="Brenna"
-                    android:id="@+id/new_challenge_friend8"
-                    android:textColor="@color/black"
-                    android:backgroundTint="@color/white"
-                    android:textSize="24dp"
-                    android:padding="20dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"/>
-
-                <Button
-                    android:text="Andy"
-                    android:id="@+id/new_challenge_friend9"
-                    android:textColor="@color/black"
-                    android:backgroundTint="@color/white"
-                    android:textSize="24dp"
-                    android:padding="20dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"/>
-
-                <Button
-                    android:text="Jed"
-                    android:id="@+id/new_challenge_friend10"
                     android:textColor="@color/black"
                     android:backgroundTint="@color/white"
                     android:textSize="24dp"
