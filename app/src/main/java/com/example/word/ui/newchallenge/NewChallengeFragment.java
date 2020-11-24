@@ -45,27 +45,19 @@ public class NewChallengeFragment extends Fragment implements View.OnClickListen
 
 //        username = getActivity().getIntent().getExtras().getString("username");
         username = DataUtils.getCurrUser();
+        CardView friend0 = (CardView) root.findViewById(R.id.new_challenge_friend0);
         CardView friend1 = (CardView) root.findViewById(R.id.new_challenge_friend1);
-        Button friend2 = (Button) root.findViewById(R.id.new_challenge_friend2);
-        Button friend3 = (Button) root.findViewById(R.id.new_challenge_friend3);
-        Button friend4 = (Button) root.findViewById(R.id.new_challenge_friend4);
-        Button friend5 = (Button) root.findViewById(R.id.new_challenge_friend5);
-        Button friend6 = (Button) root.findViewById(R.id.new_challenge_friend6);
-        Button friend7 = (Button) root.findViewById(R.id.new_challenge_friend7);
-        Button friend8 = (Button) root.findViewById(R.id.new_challenge_friend8);
-        Button friend9 = (Button) root.findViewById(R.id.new_challenge_friend9);
-        Button friend10 = (Button) root.findViewById(R.id.new_challenge_friend10);
+        CardView friend2 = (CardView) root.findViewById(R.id.new_challenge_friend2);
+        CardView friend3 = (CardView) root.findViewById(R.id.new_challenge_friend3);
+        CardView friend4 = (CardView) root.findViewById(R.id.new_challenge_friend4);
+        CardView friend5 = (CardView) root.findViewById(R.id.new_challenge_friend5);
 
+        friend0.setOnClickListener(this);
         friend1.setOnClickListener(this);
         friend2.setOnClickListener(this);
         friend3.setOnClickListener(this);
         friend4.setOnClickListener(this);
         friend5.setOnClickListener(this);
-        friend6.setOnClickListener(this);
-        friend7.setOnClickListener(this);
-        friend8.setOnClickListener(this);
-        friend9.setOnClickListener(this);
-        friend10.setOnClickListener(this);
 
         return root;
     }
