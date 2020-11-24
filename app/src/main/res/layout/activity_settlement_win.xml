@@ -45,7 +45,7 @@
             android:textColor="@color/black"
             android:layout_marginHorizontal="20dp"
             android:padding="15dp"
-            android:backgroundTint="@color/green"/>
+            android:backgroundTint="@color/tealPrimary"/>
 
         <Button
             android:id="@+id/settlement_win_disagree_button"
@@ -55,7 +55,7 @@
             android:textColor="@color/black"
             android:textAllCaps="false"
             android:layout_marginHorizontal="20dp"
-            android:backgroundTint="@color/red"
+            android:backgroundTint="@color/grey"
             android:padding="15dp"
             android:layout_marginTop="20dp"/>
 

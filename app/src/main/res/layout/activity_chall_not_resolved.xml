@@ -16,7 +16,7 @@
             android:textStyle="bold"
             android:textColor="@color/black"
             android:textAlignment="center"
-            android:background="@color/teal_700"
+            android:background="@color/tealSecondary"
             android:textSize="30sp"
             android:paddingTop="75dp"
             android:paddingBottom="75dp"
@@ -33,7 +33,7 @@
             android:paddingBottom="30dp"
             android:textColor="@color/black"
 
-            android:backgroundTint="@color/teal_700"/>
+            android:backgroundTint="@color/tealSecondary"/>
         <Button
             android:id="@+id/resolveWithLowerCredScore_button"
             android:layout_width="match_parent"
@@ -45,7 +45,7 @@
             android:paddingTop="30dp"
             android:paddingBottom="30dp"
             android:textColor="@color/black"
-            android:backgroundTint="@color/red"/>
+            android:backgroundTint="@color/grey"/>
 
     </LinearLayout>
 
